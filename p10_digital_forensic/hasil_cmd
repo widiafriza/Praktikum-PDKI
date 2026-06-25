@@ -1,0 +1,60 @@
+C:\Users\lenovo\Downloads\exiftool-13.59_64\exiftool-13.59_64>exiftool(-k).exe smk2.jpg
+'exiftool' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\lenovo\Downloads\exiftool-13.59_64\exiftool-13.59_64>"exiftool(-k).exe" smk2.jpg
+ExifTool Version Number         : 13.59
+File Name                       : smk2.jpg
+Directory                       : .
+File Size                       : 226 kB
+File Modification Date/Time     : 2024:09:21 18:27:29+07:00
+File Access Date/Time           : 2026:06:02 11:17:05+07:00
+File Creation Date/Time         : 2026:06:02 11:17:04+07:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+JFIF Version                    : 1.01
+Resolution Unit                 : None
+X Resolution                    : 1
+Y Resolution                    : 1
+Image Width                     : 1599
+Image Height                    : 1066
+Encoding Process                : Progressive DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 1599x1066
+Megapixels                      : 1.7
+-- press ENTER --
+
+
+C:\Users\lenovo\Downloads\exiftool-13.59_64\exiftool-13.59_64>"exiftool(-k).exe" -a -G1 smk2.jpg
+[ExifTool]      ExifTool Version Number         : 13.59
+[System]        File Name                       : smk2.jpg
+[System]        Directory                       : .
+[System]        File Size                       : 226 kB
+[System]        File Modification Date/Time     : 2024:09:21 18:27:29+07:00
+[System]        File Access Date/Time           : 2026:06:02 11:19:39+07:00
+[System]        File Creation Date/Time         : 2026:06:02 11:17:04+07:00
+[System]        File Permissions                : -rw-rw-rw-
+[File]          File Type                       : JPEG
+[File]          File Type Extension             : jpg
+[File]          MIME Type                       : image/jpeg
+[File]          Image Width                     : 1599
+[File]          Image Height                    : 1066
+[File]          Encoding Process                : Progressive DCT, Huffman coding
+[File]          Bits Per Sample                 : 8
+[File]          Color Components                : 3
+[File]          Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+[JFIF]          JFIF Version                    : 1.01
+[JFIF]          Resolution Unit                 : None
+[JFIF]          X Resolution                    : 1
+[JFIF]          Y Resolution                    : 1
+[Composite]     Image Size                      : 1599x1066
+[Composite]     Megapixels                      : 1.7
+-- press ENTER --
+
+
+C:\Users\lenovo\Downloads\exiftool-13.59_64\exiftool-13.59_64>"exiftool(-k).exe" -exif:all smk2.jpg
+-- press ENTER --
