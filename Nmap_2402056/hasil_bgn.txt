@@ -1,0 +1,1777 @@
+# Nmap 7.99 scan initiated Tue Jul 21 08:27:56 2026 as: nmap -A -oN hasil_bgn.txt www.bgn.go.id
+Nmap scan report for www.bgn.go.id (110.239.78.83)
+Host is up (0.070s latency).
+Other addresses for www.bgn.go.id (not scanned): 110.239.78.90 64:ff9b::6eef:4e5a 64:ff9b::6eef:4e53
+rDNS record for 110.239.78.83: ecs-110-239-78-83.compute.hwclouds-dns.com
+Not shown: 895 closed tcp ports (reset)
+PORT      STATE SERVICE             VERSION
+80/tcp    open  http                CW
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|_http-server-header: CW
+|_http-title: Did not follow redirect to https://www.bgn.go.id/
+81/tcp    open  hosts2-ns?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+82/tcp    open  xfer?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+83/tcp    open  mit-ml-dev?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+84/tcp    open  ctf?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+85/tcp    open  mit-ml-dev?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+88/tcp    open  kerberos-sec?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   Kerberos, SMBProgNeg: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:28:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+89/tcp    open  tcpwrapped
+90/tcp    open  ssl/http            nginx
+| tls-alpn: 
+|_  http/1.1
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-server-header: CW
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+144/tcp   open  news?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:44 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+280/tcp   open  http-mgmt?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+443/tcp   open  ssl/https           CW
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+|_http-server-header: CW
+| tls-alpn: 
+|_  http/1.1
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:45 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:46 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: commonName=*.bgn.go.id
+| Subject Alternative Name: DNS:*.bgn.go.id, DNS:bgn.go.id
+| Not valid before: 2026-02-09T00:00:00
+|_Not valid after:  2027-03-06T23:59:59
+587/tcp   open  ssl/http            nginx
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-server-header: CW
+| tls-alpn: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+|_smtp-commands: Couldn't establish connection on port 587
+800/tcp   open  mdbs_daemon?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:44 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+808/tcp   open  ccproxy-http?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:44 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+888/tcp   open  accessbuilder?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+995/tcp   open  ssl/pop3s?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:51 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+| tls-alpn: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+1000/tcp  open  cadlock?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:44 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+1001/tcp  open  tcpwrapped
+1090/tcp  open  tcpwrapped
+1102/tcp  open  adobeserver-1?
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+| tls-alpn: 
+|_  http/1.1
+| fingerprint-strings: 
+|   JavaRMI: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:28:44 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+|_ssl-date: TLS randomness does not represent time
+1688/tcp  open  tcpwrapped
+3000/tcp  open  tcpwrapped
+3128/tcp  open  squid-http?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:54 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+3333/tcp  open  tcpwrapped
+4006/tcp  open  ssl/http            nginx
+|_http-server-header: CW
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+4443/tcp  open  ssl/pharos?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:57 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+| tls-nextprotoneg: 
+|_  http/1.1
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+4444/tcp  open  krb524?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:50 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+5000/tcp  open  upnp?
+5001/tcp  open  commplex-link?
+| fingerprint-strings: 
+|   WMSRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:28:51 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+5080/tcp  open  onscreen?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:56 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+5100/tcp  open  admd?
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+| tls-alpn: 
+|_  http/1.1
+5222/tcp  open  xmpp-client?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:51 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+| xmpp-info: 
+|   STARTTLS Failed
+|   info: 
+|     errors: 
+|       (timeout)
+|     unknown: 
+|     compression_methods: 
+|     features: 
+|     capabilities: 
+|     auth_mechanisms: 
+|_    xmpp: 
+5555/tcp  open  freeciv?
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP, SMBProgNeg, adbConnect: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:28:59 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:00 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+6001/tcp  open  X11:1?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:01 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:28:55 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+6666/tcp  open  irc?
+| fingerprint-strings: 
+|   Help, Socks5: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:28:55 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+6699/tcp  open  napster?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:55 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:01 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+6788/tcp  open  smc-http?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:00 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:01 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+6789/tcp  open  ibm-db2-admin?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:01 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   JavaRMI: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:28:56 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+6969/tcp  open  acmsoda?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:28:56 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+7000/tcp  open  afs3-fileserver?
+| fingerprint-strings: 
+|   RPCCheck: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:28:56 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+7001/tcp  open  afs3-callback?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:05 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+7002/tcp  open  afs3-prserver?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:02 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+7004/tcp  open  afs3-kaserver?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:07 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+7019/tcp  open  doceri-ctl?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:07 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+7025/tcp  open  vmsvc-2?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:07 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+7070/tcp  open  tcpwrapped
+7443/tcp  open  ssl/oracleas-https?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:13 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:18 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+| tls-nextprotoneg: 
+|_  http/1.1
+| tls-alpn: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+|_ssl-date: TLS randomness does not represent time
+7777/tcp  open  cbt?
+| fingerprint-strings: 
+|   X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:07 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+7800/tcp  open  asr?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:12 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   JavaRMI: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:07 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+8000/tcp  open  http-alt            CW
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:13 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:12 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:12 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+|_http-server-header: CW
+8001/tcp  open  tcpwrapped
+8002/tcp  open  teradataordbms?
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:08 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:07 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8007/tcp  open  ajp12?
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:10 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8008/tcp  open  tcpwrapped
+8009/tcp  open  ajp13?
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:11 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   SSLSessionReq, SSLv23SessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:11 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+|_ajp-methods: Failed to get a valid response for the OPTION request
+8010/tcp  open  xmpp?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:11 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8011/tcp  open  tcpwrapped
+8021/tcp  open  ftp-proxy?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:17 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8022/tcp  open  oa-system?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:17 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8080/tcp  open  http-proxy          CW
+|_http-server-header: CW
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:12 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:13 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+8081/tcp  open  tcpwrapped
+8082/tcp  open  ssl/http            nginx
+| tls-alpn: 
+|_  http/1.1
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_http-server-header: CW
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+8083/tcp  open  ssl/http            nginx
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-server-header: CW
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+8084/tcp  open  ssl/http            nginx
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+| tls-alpn: 
+|_  http/1.1
+|_http-server-header: CW
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+8085/tcp  open  unknown
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:17 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8086/tcp  open  d-s-n?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:22 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8087/tcp  open  simplifymedia?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:23 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   riak-pbc: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:18 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+8088/tcp  open  radan-http          CW
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:18 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:23 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   Socks4, Socks5: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:18 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+|_http-server-header: CW
+8089/tcp  open  unknown
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:24 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8090/tcp  open  opsmessaging?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:24 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8093/tcp  open  unknown
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:24 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8100/tcp  open  xprint-server?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:25 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8180/tcp  open  unknown             CW
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_http-server-header: CW
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:25 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8181/tcp  open  intermapper?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:22 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   SSLSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:22 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+8200/tcp  open  trivnet1?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8443/tcp  open  ssl/tcpwrapped
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-server-header: CW
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+| tls-alpn: 
+|_  http/1.1
+8800/tcp  open  sunwebadmin?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:29 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+8888/tcp  open  tcpwrapped
+8899/tcp  open  ospf-lite?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:32 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+9000/tcp  open  cslistener?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:33 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+9001/tcp  open  tor-orport?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   SSLSessionReq, SSLv23SessionReq, TLSSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+9002/tcp  open  dynamid?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+9003/tcp  open  unknown
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   JavaRMI: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+9050/tcp  open  tcpwrapped
+9080/tcp  open  glrpc?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:30 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:35 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+9081/tcp  open  tcpwrapped
+9090/tcp  open  tcpwrapped
+9091/tcp  open  xmltec-xmlmail?
+| fingerprint-strings: 
+|   drda, informix: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+9099/tcp  open  unknown
+| fingerprint-strings: 
+|   JavaRMI, informix: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+9100/tcp  open  jetdirect?
+9200/tcp  open  wap-wsp?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:40 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+9207/tcp  open  wap-vcal-s?
+9503/tcp  open  unknown
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+9898/tcp  open  monkeycom?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:41 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+9929/tcp  open  nping-echo?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:41 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:42 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+9999/tcp  open  ssl/http            nginx
+| tls-alpn: 
+|_  http/1.1
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_http-server-header: CW
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+10000/tcp open  snet-sensor-mgmt?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:37 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+10001/tcp open  scp-config?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:38 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 01:29:43 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     <!DOCTYPE html><html style="height:100%;width:100%"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Server" content="CloudWAF" /><title id="title">
+|     </title></head><body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"><div><style type="text/css"> .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|     ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input type="button"
+|   JavaRMI, ZendJavaBridge: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Tue, 21 Jul 2026 01:29:38 GMT
+|     Content-Type: text/html
+|     Content-Length: 153
+|     Connection: close
+|     Server: CW
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>CloudWAF</center>
+|     </body>
+|_    </html>
+10002/tcp open  ssl/http            nginx
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_http-server-header: CW
+| tls-alpn: 
+|_  http/1.1
+| tls-nextprotoneg: 
+|_  http/1.1
+10003/tcp open  ssl/http            nginx
+| tls-alpn: 
+|_  http/1.1
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+|_http-server-header: CW
+12345/tcp open  ssl/http            nginx
+|_http-server-header: CW
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+14000/tcp open  tcpwrapped
+19101/tcp open  tcpwrapped
+20000/tcp open  ssl/http            nginx
+| tls-alpn: 
+|_  http/1.1
+|_http-server-header: CW
+| tls-nextprotoneg: 
+|_  http/1.1
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Not valid before: 2017-08-17T01:41:51
+|_Not valid after:  2027-08-15T01:41:51
+9 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.99%I=7%D=7/21%Time=6A5ECB47%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"")%r(HTTPOptions,925,"HTTP/1\.1\x20404\x20Not\x20Found
+SF:\r\nDate:\x20Tue,\x2021\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Ty
+SF:pe:\x20text/html\r\nContent-Length:\x202178\r\nConnection:\x20close\r\n
+SF:ETag:\x20\"67925d8f-882\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><ht
+SF:ml\x20style=\"height:100%;width:100%\"><head><meta\x20http-equiv=\"Cont
+SF:ent-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/><meta\x20htt
+SF:p-equiv=\"Server\"\x20content=\"CloudWAF\"\x20/><title\x20id=\"title\">
+SF:\xe6\x9c\xaa\xe6\x89\xbe\xe5\x88\xb0</title></head><body\x20style=\"hei
+SF:ght:100%;width:100%;margin:0px;font-family:Microsoft\x20yahei\"><div><s
+SF:tyle\x20type=\"text/css\">\t\.button{float:right;margin-right:2rem;text
+SF:-decoration:none;background:white;color:#e94d4c;padding:\x205px\x2015px
+SF:\x205px\x2015px;font-size:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf
+SF:\xe9\x9b\x85\xe9\xbb\x91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verda
+SF:na,sans-serif;font-weight:bold;border-radius:0rem;border:\x20none;-webk
+SF:it-transition:all\x20linear\x200\.30s;-moz-transition:all\x20linear\x20
+SF:0\.30s;}\.button:hover{text-decoration:none;background:#e94d4c;color:#f
+SF:2f2f2;}</style><input\x20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port81-TCP:V=7.99%I=7%D=7/21%Time=6A5ECB47%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"")%r(HTTPOptions,925,"HTTP/1\.1\x20404\x20Not\x20Found
+SF:\r\nDate:\x20Tue,\x2021\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Ty
+SF:pe:\x20text/html\r\nContent-Length:\x202178\r\nConnection:\x20close\r\n
+SF:ETag:\x20\"67925d8f-882\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><ht
+SF:ml\x20style=\"height:100%;width:100%\"><head><meta\x20http-equiv=\"Cont
+SF:ent-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/><meta\x20htt
+SF:p-equiv=\"Server\"\x20content=\"CloudWAF\"\x20/><title\x20id=\"title\">
+SF:\xe6\x9c\xaa\xe6\x89\xbe\xe5\x88\xb0</title></head><body\x20style=\"hei
+SF:ght:100%;width:100%;margin:0px;font-family:Microsoft\x20yahei\"><div><s
+SF:tyle\x20type=\"text/css\">\t\.button{float:right;margin-right:2rem;text
+SF:-decoration:none;background:white;color:#e94d4c;padding:\x205px\x2015px
+SF:\x205px\x2015px;font-size:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf
+SF:\xe9\x9b\x85\xe9\xbb\x91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verda
+SF:na,sans-serif;font-weight:bold;border-radius:0rem;border:\x20none;-webk
+SF:it-transition:all\x20linear\x200\.30s;-moz-transition:all\x20linear\x20
+SF:0\.30s;}\.button:hover{text-decoration:none;background:#e94d4c;color:#f
+SF:2f2f2;}</style><input\x20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port82-TCP:V=7.99%I=7%D=7/21%Time=6A5ECB47%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port83-TCP:V=7.99%I=7%D=7/21%Time=6A5ECB47%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"")%r(HTTPOptions,925,"HTTP/1\.1\x20404\x20Not\x20Found
+SF:\r\nDate:\x20Tue,\x2021\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Ty
+SF:pe:\x20text/html\r\nContent-Length:\x202178\r\nConnection:\x20close\r\n
+SF:ETag:\x20\"67925d8f-882\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><ht
+SF:ml\x20style=\"height:100%;width:100%\"><head><meta\x20http-equiv=\"Cont
+SF:ent-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/><meta\x20htt
+SF:p-equiv=\"Server\"\x20content=\"CloudWAF\"\x20/><title\x20id=\"title\">
+SF:\xe6\x9c\xaa\xe6\x89\xbe\xe5\x88\xb0</title></head><body\x20style=\"hei
+SF:ght:100%;width:100%;margin:0px;font-family:Microsoft\x20yahei\"><div><s
+SF:tyle\x20type=\"text/css\">\t\.button{float:right;margin-right:2rem;text
+SF:-decoration:none;background:white;color:#e94d4c;padding:\x205px\x2015px
+SF:\x205px\x2015px;font-size:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf
+SF:\xe9\x9b\x85\xe9\xbb\x91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verda
+SF:na,sans-serif;font-weight:bold;border-radius:0rem;border:\x20none;-webk
+SF:it-transition:all\x20linear\x200\.30s;-moz-transition:all\x20linear\x20
+SF:0\.30s;}\.button:hover{text-decoration:none;background:#e94d4c;color:#f
+SF:2f2f2;}</style><input\x20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port84-TCP:V=7.99%I=7%D=7/21%Time=6A5ECB47%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"")%r(HTTPOptions,925,"HTTP/1\.1\x20404\x20Not\x20Found
+SF:\r\nDate:\x20Tue,\x2021\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Ty
+SF:pe:\x20text/html\r\nContent-Length:\x202178\r\nConnection:\x20close\r\n
+SF:ETag:\x20\"67925d8f-882\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><ht
+SF:ml\x20style=\"height:100%;width:100%\"><head><meta\x20http-equiv=\"Cont
+SF:ent-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/><meta\x20htt
+SF:p-equiv=\"Server\"\x20content=\"CloudWAF\"\x20/><title\x20id=\"title\">
+SF:\xe6\x9c\xaa\xe6\x89\xbe\xe5\x88\xb0</title></head><body\x20style=\"hei
+SF:ght:100%;width:100%;margin:0px;font-family:Microsoft\x20yahei\"><div><s
+SF:tyle\x20type=\"text/css\">\t\.button{float:right;margin-right:2rem;text
+SF:-decoration:none;background:white;color:#e94d4c;padding:\x205px\x2015px
+SF:\x205px\x2015px;font-size:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf
+SF:\xe9\x9b\x85\xe9\xbb\x91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verda
+SF:na,sans-serif;font-weight:bold;border-radius:0rem;border:\x20none;-webk
+SF:it-transition:all\x20linear\x200\.30s;-moz-transition:all\x20linear\x20
+SF:0\.30s;}\.button:hover{text-decoration:none;background:#e94d4c;color:#f
+SF:2f2f2;}</style><input\x20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port85-TCP:V=7.99%I=7%D=7/21%Time=6A5ECB47%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"")%r(HTTPOptions,925,"HTTP/1\.1\x20404\x20Not\x20Found
+SF:\r\nDate:\x20Tue,\x2021\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Ty
+SF:pe:\x20text/html\r\nContent-Length:\x202178\r\nConnection:\x20close\r\n
+SF:ETag:\x20\"67925d8f-882\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><ht
+SF:ml\x20style=\"height:100%;width:100%\"><head><meta\x20http-equiv=\"Cont
+SF:ent-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/><meta\x20htt
+SF:p-equiv=\"Server\"\x20content=\"CloudWAF\"\x20/><title\x20id=\"title\">
+SF:\xe6\x9c\xaa\xe6\x89\xbe\xe5\x88\xb0</title></head><body\x20style=\"hei
+SF:ght:100%;width:100%;margin:0px;font-family:Microsoft\x20yahei\"><div><s
+SF:tyle\x20type=\"text/css\">\t\.button{float:right;margin-right:2rem;text
+SF:-decoration:none;background:white;color:#e94d4c;padding:\x205px\x2015px
+SF:\x205px\x2015px;font-size:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf
+SF:\xe9\x9b\x85\xe9\xbb\x91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verda
+SF:na,sans-serif;font-weight:bold;border-radius:0rem;border:\x20none;-webk
+SF:it-transition:all\x20linear\x200\.30s;-moz-transition:all\x20linear\x20
+SF:0\.30s;}\.button:hover{text-decoration:none;background:#e94d4c;color:#f
+SF:2f2f2;}</style><input\x20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port88-TCP:V=7.99%I=7%D=7/21%Time=6A5ECB47%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:10
+SF:0%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/css
+SF:\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\x
+SF:20type=\"button\"")%r(Kerberos,127,"HTTP/1\.1\x20400\x20Bad\x20Request\
+SF:r\nDate:\x20Tue,\x2021\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Typ
+SF:e:\x20text/html\r\nContent-Length:\x20153\r\nConnection:\x20close\r\nSe
+SF:rver:\x20CW\r\n\r\n<html>\r\n<head><title>400\x20Bad\x20Request</title>
+SF:</head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request</h1></center>\r\
+SF:n<hr><center>CloudWAF</center>\r\n</body>\r\n</html>\r\n")%r(SMBProgNeg
+SF:,127,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Tue,\x2021\x20Jul\
+SF:x202026\x2001:28:39\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Len
+SF:gth:\x20153\r\nConnection:\x20close\r\nServer:\x20CW\r\n\r\n<html>\r\n<
+SF:head><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<center><
+SF:h1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>CloudWAF</center>
+SF:\r\n</body>\r\n</html>\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port144-TCP:V=7.99%I=7%D=7/21%Time=6A5ECB4C%P=i686-pc-windows-windows%r
+SF:(GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x202
+SF:1\x20Jul\x202026\x2001:28:44\x20GMT\r\nContent-Type:\x20text/html\r\nCo
+SF:ntent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-88
+SF:2\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:1
+SF:00%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=
+SF:\"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20
+SF:content=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\x
+SF:be\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;ma
+SF:rgin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/cs
+SF:s\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backg
+SF:round:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-s
+SF:ize:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x
+SF:91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-wei
+SF:ght:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20l
+SF:inear\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover
+SF:{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\
+SF:x20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port280-TCP:V=7.99%I=7%D=7/21%Time=6A5ECB47%P=i686-pc-windows-windows%r
+SF:(GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x202
+SF:1\x20Jul\x202026\x2001:28:39\x20GMT\r\nContent-Type:\x20text/html\r\nCo
+SF:ntent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-88
+SF:2\"\r\nServer:\x20CW\r\n\r\n<!DOCTYPE\x20html><html\x20style=\"height:1
+SF:00%;width:100%\"><head><meta\x20http-equiv=\"Content-Type\"\x20content=
+SF:\"text/html;\x20charset=utf-8\"\x20/><meta\x20http-equiv=\"Server\"\x20
+SF:content=\"CloudWAF\"\x20/><title\x20id=\"title\">\xe6\x9c\xaa\xe6\x89\x
+SF:be\xe5\x88\xb0</title></head><body\x20style=\"height:100%;width:100%;ma
+SF:rgin:0px;font-family:Microsoft\x20yahei\"><div><style\x20type=\"text/cs
+SF:s\">\t\.button{float:right;margin-right:2rem;text-decoration:none;backg
+SF:round:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-s
+SF:ize:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x
+SF:91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-wei
+SF:ght:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20l
+SF:inear\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover
+SF:{text-decoration:none;background:#e94d4c;color:#f2f2f2;}</style><input\
+SF:x20type=\"button\"");
+Device type: WAP|specialized|general purpose|media device|broadband router
+Running (JUST GUESSING): Linux 2.6.X|2.4.X (93%), Philips embedded (91%), Crestron 2-Series (90%), D-Link embedded (89%), Zgemma embedded (89%), Asus embedded (89%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.22 cpe:/o:linux:linux_kernel:2.4 cpe:/o:linux:linux_kernel cpe:/o:crestron:2_series cpe:/o:linux:linux_kernel:2.4.18 cpe:/h:dlink:dir-835 cpe:/o:linux:linux_kernel:4.4 cpe:/h:asus:rt-ac66u
+Aggressive OS guesses: OpenWrt Kamikaze 7.09 (Linux 2.6.22) (93%), OpenWrt 0.9 - 7.09 (Linux 2.4.30 - 2.4.34) (92%), OpenWrt White Russian 0.9 (Linux 2.4.30) (92%), Philips Hue Bridge 2.0 (Linux 4.14) (91%), Crestron XPanel control system (90%), Linux 2.4.18 (89%), D-Link DIR-835 WAP (89%), Zgemma H9 TV receiver (Linux 4.4) (89%), Asus RT-AC66U router (Linux 2.6) (89%), Asus RT-N16 WAP (Linux 2.6) (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 11 hops
+
+TRACEROUTE (using port 5900/tcp)
+HOP RTT      ADDRESS
+1   3.00 ms  10.136.102.179
+2   38.00 ms 10.202.86.34
+3   36.00 ms 10.202.86.37
+4   38.00 ms 140.213.206.97
+5   43.00 ms 202.152.245.3
+6   ... 7
+8   51.00 ms 172.16.145.58
+9   55.00 ms 26.133.65.17
+10  57.00 ms 26.133.65.157
+11  59.00 ms ecs-110-239-78-83.compute.hwclouds-dns.com (110.239.78.83)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 21 08:31:26 2026 -- 1 IP address (1 host up) scanned in 209.99 seconds

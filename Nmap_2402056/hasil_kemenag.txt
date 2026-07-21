@@ -1,0 +1,43 @@
+# Nmap 7.99 scan initiated Tue Jul 21 08:35:54 2026 as: nmap -A -oN hasil_kemenag.txt www.kemenag.go.id
+Nmap scan report for www.kemenag.go.id (103.7.13.243)
+Host is up (0.080s latency).
+Other addresses for www.kemenag.go.id (not scanned): 64:ff9b::6707:df3
+Not shown: 987 filtered tcp ports (no-response)
+PORT     STATE  SERVICE       VERSION
+80/tcp   closed http
+81/tcp   closed hosts2-ns
+82/tcp   closed xfer
+83/tcp   closed mit-ml-dev
+84/tcp   closed ctf
+113/tcp  closed ident
+443/tcp  closed https
+2099/tcp closed h2250-annex-g
+8093/tcp closed unknown
+9000/tcp closed cslistener
+9001/tcp closed tor-orport
+9002/tcp closed dynamid
+9003/tcp closed unknown
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: firewall|broadband router|general purpose
+Running: Cyberoam embedded, Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.6.18
+OS details: Cyberoam UTM firewall, Linux 2.6.32, Endian Firewall 2.3 (Linux 2.6), Linux 2.6.18, Linux 2.6.23, Linux 2.6.24
+Network Distance: 12 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   2.00 ms  10.136.102.179
+2   50.00 ms 10.202.86.34
+3   36.00 ms 10.202.86.37
+4   53.00 ms 140.213.206.73
+5   54.00 ms ae3s0.jktcyb05-cisp01.xl.co.id (112.215.81.46)
+6   55.00 ms 140.213.25.199
+7   56.00 ms telkomnet.openixp.net (218.100.36.56)
+8   59.00 ms 118.97.5.133
+9   59.00 ms 118.97.5.134
+10  59.00 ms 103.7.13.2
+11  51.00 ms 103.7.13.2
+12  46.00 ms 103.7.13.243
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 21 08:36:18 2026 -- 1 IP address (1 host up) scanned in 24.85 seconds
